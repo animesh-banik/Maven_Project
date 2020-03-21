@@ -28,6 +28,7 @@ public class Test_Selenium {
 		WebDriver driver = new ChromeDriver(options);
 		driver.get("http://gmail.com");
 		Thread.sleep(1000);
+		Thread.sleep(1000);
 		driver.findElement(By.xpath("//*[@id=\"identifierId\"]")).sendKeys("animeshbanik2018@gmail.com");
 
 	}
