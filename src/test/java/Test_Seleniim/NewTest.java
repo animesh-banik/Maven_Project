@@ -1,5 +1,7 @@
 package Test_Seleniim;
 
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,12 +10,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.AfterTest;
 
-
-public class Test_Selenium {
-
-	public static void main(String[] args) throws InterruptedException {
-		System. setProperty("webdriver.chrome.driver", "D:\\Maven_Project\\Driver\\chromedriver.exe");
+public class NewTest {
+  @Test
+  public void f() throws InterruptedException {
+	  System. setProperty("webdriver.chrome.driver", "D:\\Maven_Project\\Driver\\chromedriver.exe");
 		
 		Map<String, String> mobileEmulation = new HashMap<String, String>();
 		mobileEmulation.put("deviceName", "Laptop with touch");
@@ -38,7 +40,13 @@ public class Test_Selenium {
 		Thread.sleep(1000);
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//*[@id=\"identifierId\"]")).sendKeys("animeshbanik2018@gmail.com");
+  }
+  @BeforeTest
+  public void beforeTest() {
+  }
 
-	}
+  @AfterTest
+  public void afterTest() {
+  }
 
 }
