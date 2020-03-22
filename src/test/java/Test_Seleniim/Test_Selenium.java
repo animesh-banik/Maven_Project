@@ -36,6 +36,7 @@ public class Test_Selenium {
 		Thread.sleep(1000);
 		Thread.sleep(1000);
 		Thread.sleep(1000);
+		Thread.sleep(1000);
 		driver.findElement(By.xpath("//*[@id=\"identifierId\"]")).sendKeys("animeshbanik2018@gmail.com");
 
 	}
