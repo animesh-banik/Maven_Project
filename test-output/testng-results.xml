@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="77997" started-at="2020-03-22T14:48:16Z" finished-at="2020-03-22T14:49:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="77997" started-at="2020-03-22T14:48:16Z" finished-at="2020-03-22T14:49:34Z">
+      <class name="Test_Seleniim.NewTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Test_Seleniim.NewTest@26be92ad]" name="beforeTest" is-config="true" duration-ms="27" started-at="2020-03-22T20:18:16Z" finished-at="2020-03-22T20:18:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:Test_Seleniim.NewTest@26be92ad]" name="f" duration-ms="77888" started-at="2020-03-22T20:18:16Z" finished-at="2020-03-22T20:19:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Test_Seleniim.NewTest@26be92ad]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-03-22T20:19:34Z" finished-at="2020-03-22T20:19:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Test_Seleniim.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
